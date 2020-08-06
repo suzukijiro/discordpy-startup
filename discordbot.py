@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def "!探検手帳"(ctx):
+async def "/探検手帳"(ctx):
     await ctx.send("呼んだ？")
 
 
